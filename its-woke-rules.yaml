@@ -1,5 +1,10 @@
+ignore_files:
+  - node_modules/
 exclude_categories:
   - exceptions
+  - .node_modules/
+  - yarn.lock
+  - package-lock.json
 rules:
   - name: black hat
     terms: [black hat]
