@@ -3,6 +3,7 @@ ignore_files:
   - .node_modules/
   - yarn.lock
   - package-lock.json
+  - node_modules/promise-all-reject-late/package-lock.json
 exclude_categories:
   - exceptions
 rules:
